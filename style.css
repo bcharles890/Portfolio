@@ -1,0 +1,96 @@
+* {
+    font-family: "Lato";
+
+    body{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    /*Mobile Styles */
+
+    
+
+    #Home {}
+}
+
+@media only screen and (min-width: 476px) and (max-width: 768px) {
+
+    /*Tablet Styles */
+    
+
+    #Home {}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+
+    /*Laptop Styles */
+    
+   .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+   }
+
+   .nav-name{
+    margin: .8rem;
+   }
+
+   .navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 5px;
+   }
+
+   .navbar-links li{
+    padding: 15px;
+    list-style-type: none;
+   }
+
+   .navbar-links a{
+    text-decoration: none;
+    color: white;
+    display: block;
+   }
+
+    
+}
