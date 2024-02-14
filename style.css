@@ -5,14 +5,18 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+        height: 1000vh;
     }
 }
 
 @media only screen and (max-width: 425px) {
     /*Mobile Styles */
 
+        /*Background Image Styles*/
+
+
     #Home {
-        height: 65vh;
+        height: 85vh;
         background-image: url(/images/francesco-ungaro-2zZoKmZr3Eo-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
@@ -20,6 +24,9 @@
         background-position: 20%;
 
     }
+
+        /*Navbar Styles*/
+
 
     .navbar {
         display: flex;
@@ -72,6 +79,8 @@
 
     }
 
+        /*Hamburger Button styles*/
+
     .toggle-button {
         position: absolute;
         top: .75rem;
@@ -90,6 +99,8 @@
         border-radius: 10px;
     }
 
+        /*Hero Section styles*/
+
     .hero-section {
         display: flex;
         align-items: center;
@@ -97,6 +108,7 @@
         flex-direction: column;
         color: white;
         height: 75vh;
+        line-height: 5%;
 
        
 
@@ -112,12 +124,67 @@
         font-size: 1.5rem;
     }
 
+/*first page completed*/
+
+/*start of second page*/
+
+
+#About{
+    height: 180vh;
+    border: solid;
+}
+
+.about-section{
+
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 170vh;
+    padding-top: 8%;
+}
+
+.about-header{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 0%;
+    
+}
+
+.about-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+
+.about-text{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2em;
+    width: 80vw;
+}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 426px) and (max-width: 768px) {
 
     /*Tablet Styles */
+
+    /*Background Image Styles*/
 
     #Home {
         height: 100vh;
@@ -127,6 +194,9 @@
         width: 100%;
 
     }
+
+        /*Navbar Styles*/
+
 
     .navbar {
         display: flex;
@@ -181,6 +251,9 @@
         display: flex;
     }
 
+        /*Hamburger Button styles*/
+
+
     .toggle-button {
         position: absolute;
         top: .75rem;
@@ -198,6 +271,7 @@
         background-color: white;
         border-radius: 10px;
     }
+    /*Hero Section styles*/
 
 
     .hero-section {
@@ -207,6 +281,7 @@
         flex-direction: column;
         color: white;
         height: 75vh;
+        line-height: 5%;
         
         
 
@@ -220,6 +295,47 @@
     .hero-text {
         font-size: 2rem;
     }
+
+/*first page completed*/
+
+/*start of second page*/
+
+#About{
+    height: 140vh;
+    border: solid;
+}
+
+.about-section{
+
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 130vh;
+    padding-top: 8%;
+}
+
+.about-header{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 0%;
+    
+}
+
+.about-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+
+.about-text{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2em;
+    width: 80vw;
+}
 }
 
 
@@ -260,6 +376,8 @@
 
     /*Laptop Styles */
 
+    /*Background Image Styles*/
+
     #Home {
         height: 100vh;
         background-image: url(/images/francesco-ungaro-2zZoKmZr3Eo-unsplash.jpg);
@@ -269,11 +387,13 @@
 
     }
 
+    /*Navbar Styles*/
+
     .navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: rgba(0, 0, 0, 0.7);
+        background-color: rgba(0, 0, 0, 0.9);
         color: white;
         position: fixed;
         width: 100vw;
@@ -288,7 +408,7 @@
         margin: 0;
         padding: 0;
         display: flex;
-        padding: 5px;
+        padding: 10px;
     }
 
     .navbar-links li {
@@ -301,6 +421,8 @@
         color: white;
         display: block;
     }
+
+    /*Hamburger Button styles*/
 
     .toggle-button {
         position: absolute;
@@ -321,15 +443,17 @@
         border-radius: 10px;
     }
 
+    /*Hero Section styles*/
+
 
     .hero-section {
-        margin: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         color: white;
-        text-align: center;
+        height: 95vh;
+        line-height: 5%;
 
     }
 
@@ -340,7 +464,52 @@
 
     .hero-text {
         font-size: 2rem;
-        border-bottom: solid 3px;
         
     }
+
+/*first page completed*/
+
+/*start of second page*/
+
+
+#About{
+    height: 120vh;
+    border: solid;
+}
+
+.about-section{
+
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    padding-top: 10%;
+}
+
+.about-header{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 0%;
+    
+}
+
+.about-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.about-text{
+    font-size: 1.2rem;
+    font-weight: 300;
+    line-height: 2em;
+    width: 80vw;
+}
+
+
+
+
+
 }
