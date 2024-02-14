@@ -128,10 +128,10 @@
 
 /*start of second page*/
 
+/*About styles*/
 
 #About{
     height: 180vh;
-    border: solid;
 }
 
 .about-section{
@@ -166,6 +166,52 @@
     width: 80vw;
 }
 
+/*about section completed*/
+
+/*experience section start*/
+
+#Experience{
+    height: 170vh;
+    border: solid;
+    background-color: #F0F0F0;
+}
+
+.experience-section{
+
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 160vh;
+    
+    
+
+}
+
+.experience-header{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 20%;
+}
+
+.experience-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2em;
+    width: 80vw;
+}
+
+
+.gridOfImages{
+
+}
+
+.exp-img{
+    border: solid;
+    margin: 15px;
+
+}
 }
 
 
@@ -300,6 +346,9 @@
 
 /*start of second page*/
 
+/*About styles*/
+
+
 #About{
     height: 140vh;
     border: solid;
@@ -335,6 +384,52 @@
     font-weight: 300;
     line-height: 2em;
     width: 80vw;
+}
+
+/*second page completed*/
+
+/*experience section starts*/
+
+#Experience{
+    height: 105vh;
+    border: solid;
+    background-color: #F0F0F0;
+}
+
+.experience-section{
+
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 110vh;
+    
+
+}
+
+.experience-header{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 0%;
+}
+
+.experience-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2em;
+    width: 80vw;
+}
+
+
+.gridOfImages{
+
+}
+
+.exp-img{
+    border: solid;
+    margin: 15px;
+
 }
 }
 
@@ -471,6 +566,8 @@
 
 /*start of second page*/
 
+/*About styles*/
+
 
 #About{
     height: 120vh;
@@ -509,6 +606,52 @@
 }
 
 
+/*about section completed*/
+
+/*experience section starts*/
+
+
+#Experience{
+    height: 100vh;
+    border: solid;
+    background-color: #F0F0F0;
+}
+
+.experience-section{
+
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    
+
+}
+
+.experience-header{
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 0%;
+}
+
+.experience-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2em;
+    width: 80vw;
+}
+
+
+.gridOfImages{
+
+}
+
+.exp-img{
+    border: solid;
+    margin: 15px;
+
+}
 
 
 
