@@ -9,8 +9,11 @@
     }
 }
 
+
+
+
 @media only screen and (max-width: 425px) {
-    /*Mobile Styles */
+    /*Large Mobile Styles */
 
         /*Background Image Styles*/
 
@@ -212,6 +215,10 @@
     margin: 15px;
 
 }
+
+/*experience section ends*/
+
+/*resume section begins*/
 }
 
 
@@ -431,6 +438,12 @@
     margin: 15px;
 
 }
+
+/*experience section ends*/
+
+/*resume section begins*/
+
+
 }
 
 
@@ -492,6 +505,7 @@
         color: white;
         position: fixed;
         width: 100vw;
+        
 
     }
 
@@ -504,11 +518,13 @@
         padding: 0;
         display: flex;
         padding: 10px;
+        
     }
 
     .navbar-links li {
         padding: 15px;
         list-style-type: none;
+
     }
 
     .navbar-links a {
@@ -562,6 +578,7 @@
         
     }
 
+    
 /*first page completed*/
 
 /*start of second page*/
@@ -572,6 +589,7 @@
 #About{
     height: 120vh;
     border: solid;
+
 }
 
 .about-section{
@@ -583,6 +601,8 @@
     flex-direction: column;
     height: 100vh;
     padding-top: 10%;
+    scroll-behavior: smooth;
+
 }
 
 .about-header{
@@ -653,6 +673,40 @@
 
 }
 
+/*experience section ends*/
 
+/*resume section begins*/
+
+#Resume{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/Resume-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    
+    
+}
+
+
+
+
+.resume-header{
+
+    margin-top: 15%;
+    font-size: 2.5em;
+}
+
+.resume-btn{
+    font-size: 2em;
+    height: 25%;
+    width: 65%;
+    border: solid white;
+    background-color: rgba(99, 99, 99, 0.4);
+    color: white;
+    margin-left: 15%;
+}
 
 }
