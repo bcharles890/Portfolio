@@ -5,13 +5,425 @@
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        height: 1000vh;
+        
     }
 }
 
 
 @media only screen and (max-width: 320px) {
+    /*Small Mobile Styles*/
+
     
+    /*Background Image Styles*/
+
+    #Home {
+        height: 85vh;
+        background-image: url(/images/francesco-ungaro-2zZoKmZr3Eo-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        background-position: 20%;
+
+    }
+
+        /*Navbar Styles*/
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        position: fixed;
+        
+    }
+
+    .nav-name {
+        margin: .8rem;
+    }
+
+    .navbar-links {
+        width: 100%;
+        display: none;
+    }
+
+    .navbar-links ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        padding: 5px;
+        flex-direction: column;
+        width: 100%;
+    
+
+    }
+
+    .navbar-links li {
+        padding: 15px;
+        list-style-type: none;
+        text-align: center;
+    }
+
+    .navbar-links li a {
+        text-decoration: none;
+        color: white;
+        display: block;
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+
+    }
+
+        /*Hamburger Button styles*/
+
+    .toggle-button {
+        position: absolute;
+        top: .75rem;
+        right: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30px;
+        height: 21px;
+    }
+
+    .toggle-button .bar {
+        height: 3px;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+         /*Hero Section styles*/
+
+         .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            height: 75vh;
+            line-height: 5%;
+    
+           
+    
+        }
+    
+        .hero-header {
+            font-size: 2rem;
+            
+    
+        }
+    
+        .hero-text {
+            font-size: 1.5rem;
+        }
+    
+    /*first page completed*/
+
+    /*start of second page*/
+    
+    /*About styles*/
+
+    #About{
+        height: 205vh;
+        border: solid;
+    }
+    
+    .about-section{
+    
+        display: flex;
+        align-items :center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 170vh;
+        padding-top: 8%;
+    }
+    
+    .about-header{
+        font-size: 3rem;
+        font-weight: 300;
+        margin-top: 70%;
+        
+    }
+    
+    .about-img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        border: solid black 1px;
+    }
+    
+    .about-text{
+        font-size: 1.2rem;
+        font-weight: 300;
+        line-height: 2em;
+        width: 80vw;
+    }
+    
+    /*about section completed*/
+    
+    /*experience section start*/
+
+#Experience{
+    height: 210vh;
+    border: solid;
+    background-color: #F0F0F0;
+}
+
+.experience-section{
+
+    display: flex;
+    align-items :center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 160vh;
+    
+    
+
+}
+
+.experience-header{
+    font-size: 2.7rem;
+    font-weight: 300;
+    margin-top: 90%;
+}
+
+.experience-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5em;
+    width: 80vw;
+}
+
+
+.gridOfImages{
+
+}
+
+.exp-img{
+    border: solid;
+    margin: 15px;
+
+}
+
+/*experience section ends*/
+/*resume section begins*/
+
+#Resume{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/Resume-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+    background-position: center;
+    
+    
+}
+
+
+
+
+.resume-header{
+
+    margin-top: 35%;
+    font-size: 1.5em;
+}
+
+.resume-btn{
+    font-size: 1.8em;
+    height: 18%;
+    width: 70%;
+    border: solid white;
+    background-color: rgba(99, 99, 99, 0.4);
+    color: white;
+    margin-left: 15%;
+}
+
+/*resume section ends*/
+
+/*projects section begins*/
+
+#Projects{
+
+    background-color: white;
+    height: 250vh;
+    border: solid ;
+    padding-top: 7vh;
+}
+
+.projects-page{
+
+}
+
+.projects-header{
+
+    text-align: center;
+    font-size: 2.7em;
+    font-weight: 700;
+}
+
+.projects-flex{
+
+    
+}
+
+.project-row{
+height: 100%;
+display: block;
+justify-content: space-evenly;
+align-items: center;
+
+
+}
+
+.project-row-2{
+
+}
+
+.project-container{
+    border: solid 2px;
+    width: 60%;
+    height: 70vh;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#project-container-1{
+
+}
+
+#project-img-1{
+
+   
+}
+
+.project-img{
+
+    padding-top: 0%;
+    height: 190px;
+    width: 100%;
+}
+
+.textarea{
+
+    border-top: solid 2px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+.project-btns{
+
+}
+
+.live-demo-btn{
+
+}
+
+.view-code-btn{
+
+}
+
+/*project section ends*/
+
+/*Contact section begins*/
+
+#Contact{
+    height: 60vh;
+    background-color: #F0F0F0;
+    border: solid black;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-header{
+    font-size:1.9em;
+    margin-top: 90px;
+    font-weight: 500;
+}
+
+.contact-text{
+    text-align: center;
+    font-size: 1.2em;
+    width: 90vw;
+    font-weight: 400;
+}
+
+.contact-button{
+
+    width: 32vw;
+    height: 2.5em;
+    font-size: 1.2em;
+    border: solid black;
+    color: black;
+    background-color: #F0F0F0;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.contact-button> a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+/*contact section ends*/
+
+/*footer section starts*/
+
+#Bottom-Footer{
+    height: 40vh;
+    border: solid;
+    background-color: #222222;
+    color: white;
+    border: solid black;
+    }
+    
+    .footer-container{
+    
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-contact{
+    
+        border: solid black;
+        height: 50px;
+        width: 50px;
+        margin: 20px;
+        padding: 5px;
+        background-color: #333333;
+        border-radius: 5%;
+        margin-top: 10vh;
+    
+    }
+    
+    .copyright{
+        text-align: center;
+    }
+
 }
 
 @media only screen and (min-width: 321px) and (max-width: 420px) {
@@ -1035,7 +1447,7 @@ align-items: center;
 /*experience section starts*/
 
 #Experience{
-    height: 105vh;
+    height: 125vh;
     border: solid;
     background-color: #F0F0F0;
 }
@@ -1055,7 +1467,7 @@ align-items: center;
 .experience-header{
     font-size: 3rem;
     font-weight: 300;
-    margin-top: 0%;
+    margin-top: 5%;
 }
 
 .experience-text{
@@ -1073,6 +1485,8 @@ align-items: center;
 .exp-img{
     border: solid;
     margin: 15px;
+    height: 75px;
+    width: 75px;
 
 }
 
