@@ -7,7 +7,15 @@
         padding: 0;
         
     }
+
+    
+    
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 
 
 @media only screen and (max-width: 320px) {
@@ -16,13 +24,18 @@
     
     /*Background Image Styles*/
 
+    body{
+        width: 100%;
+    }
+
     #Home {
         height: 85vh;
         background-image: url(/images/francesco-ungaro-2zZoKmZr3Eo-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
+        width: 100vw;
         background-position: 20%;
+        scroll-behavior: smooth;
 
     }
 
@@ -35,7 +48,7 @@
         align-items: center;
         background-color: rgba(0, 0, 0, 0.8);
         color: white;
-        width: 100%;
+        width: 100vw;
         flex-direction: column;
         align-items: flex-start;
         position: fixed;
@@ -100,6 +113,8 @@
         border-radius: 10px;
     }
 
+    
+
          /*Hero Section styles*/
 
          .hero-section {
@@ -117,12 +132,25 @@
     
         .hero-header {
             font-size: 2rem;
-            
+            transition: 0.5;
+            animation-name: heroHeader;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in;
     
         }
     
         .hero-text {
             font-size: 1.5rem;
+        }
+
+        @keyframes heroHeader{
+            0%{
+                opacity: 0%;
+            }
+            100%{
+                opacity: 100%;
+            }
         }
     
     /*first page completed*/
@@ -134,6 +162,7 @@
     #About{
         height: 205vh;
         border: solid;
+        
     }
     
     .about-section{
@@ -411,7 +440,7 @@ align-items: center;
     
         border: solid black;
         height: 50px;
-        width: 50px;
+        width: 75px;
         margin: 20px;
         padding: 5px;
         background-color: #333333;
@@ -532,12 +561,32 @@ align-items: center;
     
         .hero-header {
             font-size: 2.5rem;
-            
+            transition: 0.5;
+            animation-name: heroHeader;
+            animation-duration: 2.3s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in;
     
+        }
+    
+        
+
+        @keyframes heroHeader{
+            0%{
+                opacity: 0%;
+            }
+            100%{
+                opacity: 100%;
+            }
         }
     
         .hero-text {
             font-size: 1.5rem;
+            transition: 0.5;
+            animation-name: heroHeader;
+            animation-duration: 2.3s;
+            animation-iteration-count: 1;
+            animation-timing-function: ease-in;
         }
     
     /*first page completed*/
@@ -962,12 +1011,32 @@ align-items: center;
 
     .hero-header {
         font-size: 2.5rem;
-        
+        transition: 0.5;
+        animation-name: heroHeader;
+        animation-duration: 2.3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
 
+    }
+
+    
+
+    @keyframes heroHeader{
+        0%{
+            opacity: 0%;
+        }
+        100%{
+            opacity: 100%;
+        }
     }
 
     .hero-text {
         font-size: 1.5rem;
+        transition: 0.5;
+        animation-name: heroHeader;
+        animation-duration: 2.3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
     }
 
 /*first page completed*/
@@ -1391,11 +1460,32 @@ align-items: center;
 
     .hero-header {
         font-size: 3.5rem;
+        transition: 0.5;
+        animation-name: heroHeader;
+        animation-duration: 2.3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
 
+    }
+
+    
+
+    @keyframes heroHeader{
+        0%{
+            opacity: 0%;
+        }
+        100%{
+            opacity: 100%;
+        }
     }
 
     .hero-text {
         font-size: 2rem;
+        transition: 0.5;
+        animation-name: heroHeader;
+        animation-duration: 2.3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
     }
 
 /*first page completed*/
@@ -1822,12 +1912,32 @@ align-items: center;
 
     .hero-header {
         font-size: 3.5rem;
+        transition: 0.5;
+        animation-name: heroHeader;
+        animation-duration: 2.3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
 
+    }
+
+    
+
+    @keyframes heroHeader{
+        0%{
+            opacity: 0%;
+        }
+        100%{
+            opacity: 100%;
+        }
     }
 
     .hero-text {
         font-size: 2rem;
-        
+        transition: 0.5;
+        animation-name: heroHeader;
+        animation-duration: 2.3s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in;
     }
 
     
@@ -1904,7 +2014,7 @@ align-items: center;
 .experience-header{
     font-size: 3rem;
     font-weight: 300;
-    margin-top: 0%;
+    margin-top: 7%;
 }
 
 .experience-text{
