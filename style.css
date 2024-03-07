@@ -1,16 +1,23 @@
 * {
     font-family: "Lato";
 
-    body {
+    body{
         box-sizing: border-box;
         margin: 0;
         padding: 0;
+    
     }
 }
 
 html {
     scroll-behavior: smooth;
+    margin: 0 auto;
+    
 }
+
+
+
+
 
 @media only screen and (max-width: 320px) {
     /*Small Mobile Styles*/
@@ -18,17 +25,18 @@ html {
     /*Background Image Styles*/
 
     body {
-        width: 100%;
+        width: 100vw;
     }
 
     #Home {
-        height: 85vh;
+        height: 85%;
         background-image: url(/images/francesco-ungaro-2zZoKmZr3Eo-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
         background-position: 20%;
         scroll-behavior: smooth;
+        
     }
 
     /*Navbar Styles*/
@@ -256,7 +264,7 @@ html {
 
     #Projects {
         background-color: white;
-        height: 250vh;
+        height: 250%;
         border: solid;
         padding-top: 7vh;
     }
@@ -282,8 +290,8 @@ html {
 
     .project-container {
         border: solid 2px;
-        width: 60%;
-        height: 70vh;
+        width: 80%;
+        height: 70%;
         display: block;
         flex-direction: column;
         align-items: center;
@@ -291,6 +299,8 @@ html {
         border-radius: 5px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 8%;
+
     }
 
     #project-container-1 {}
@@ -308,9 +318,16 @@ html {
         text-align: center;
         width: 100%;
         height: 100%;
+        font-weight: 300;
+        font-size: 3.5vw;
     }
 
-    .project-btns {}
+    .project-btns { 
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 35px;}
 
     .live-demo-btn {
         font-size: 1.2em;
@@ -445,7 +462,7 @@ html {
     }
 }
 
-@media only screen and (min-width: 321px) and (max-width: 420px) {
+@media only screen and (min-width: 321px) and (max-width: 375px) {
     /*Medium Mobile Styles*/
 
     /*Background Image Styles*/
@@ -455,7 +472,7 @@ html {
         background-image: url(/images/francesco-ungaro-2zZoKmZr3Eo-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 100%;
+        width: 100vw;
         background-position: 20%;
     }
 
@@ -689,7 +706,7 @@ html {
 
     #Projects {
         background-color: white;
-        height: 250vh;
+        height: 250%;
         border: solid;
         padding-top: 7vh;
     }
@@ -716,7 +733,7 @@ html {
     .project-container {
         border: solid 2px;
         width: 60%;
-        height: 70vh;
+        height: 70%;
         display: block;
         flex-direction: column;
         align-items: center;
@@ -724,6 +741,8 @@ html {
         border-radius: 5px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 8%;
+
     }
 
     #project-container-1 {}
@@ -741,9 +760,17 @@ html {
         text-align: center;
         width: 100%;
         height: 100%;
+        font-weight: 300;
+        font-size: 3.5vw;
     }
 
-    .project-btns {}
+    .project-btns {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 35px;
+    }
 
     .live-demo-btn {
         font-size: 1.2em;
@@ -880,10 +907,11 @@ html {
     /*footer section ends*/
 }
 
-@media only screen and (min-width: 421px) and (max-width: 425px) {
+@media only screen and (min-width: 376px) and (max-width: 425px) {
     /*Large Mobile Styles */
 
     /*Background Image Styles*/
+    
 
     #Home {
         height: 85vh;
@@ -1010,7 +1038,7 @@ html {
     /*About styles*/
 
     #About {
-        height: 180vh;
+        height: 180%;
     }
 
     .about-section {
@@ -1019,7 +1047,7 @@ html {
         justify-content: center;
         text-align: center;
         flex-direction: column;
-        height: 170vh;
+        height: 170%;
         padding-top: 8%;
     }
 
@@ -1048,7 +1076,7 @@ html {
     /*experience section start*/
 
     #Experience {
-        height: 170vh;
+        height: 170%;
         border: solid;
         background-color: #f0f0f0;
     }
@@ -1059,7 +1087,7 @@ html {
         justify-content: center;
         text-align: center;
         flex-direction: column;
-        height: 160vh;
+        height: 160%;
     }
 
     .experience-header {
@@ -1123,7 +1151,7 @@ html {
 
     #Projects {
         background-color: white;
-        height: 250vh;
+        height: 250%;
         border: solid;
         padding-top: 7vh;
     }
@@ -1150,7 +1178,7 @@ html {
     .project-container {
         border: solid 2px;
         width: 60%;
-        height: 70vh;
+        height: 60%;
         display: block;
         flex-direction: column;
         align-items: center;
@@ -1158,6 +1186,7 @@ html {
         border-radius: 5px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 8%;
     }
 
     #project-container-1 {}
@@ -1175,9 +1204,18 @@ html {
         text-align: center;
         width: 100%;
         height: 100%;
+        font-weight: 300;
+        font-size: 3.5vw;
+
     }
 
-    .project-btns {}
+    .project-btns {
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 35px;
+    }
 
     .live-demo-btn {
         font-size: 1.2em;
