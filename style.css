@@ -253,6 +253,11 @@ html {
         margin-left: 15%;
     }
 
+    .resume-btn > a{
+        text-decoration: none;
+        color: white;
+    }
+
     .resume-btn:hover {
         background-color: black;
         transition: 1s;
@@ -693,6 +698,11 @@ html {
         background-color: rgba(99, 99, 99, 0.4);
         color: white;
         margin-left: 15%;
+    }
+
+    .resume-btn > a{
+        text-decoration: none;
+        color: white;
     }
 
     .resume-btn:hover {
@@ -1141,6 +1151,11 @@ html {
         margin-left: 15%;
     }
 
+    .resume-btn > a{
+        text-decoration: none;
+        color: white;
+    }
+
     .resume-btn:hover {
         background-color: black;
         transition: 1s;
@@ -1586,6 +1601,11 @@ html {
         margin-left: 15%;
     }
 
+    .resume-btn > a{
+        text-decoration: none;
+        color: white;
+    }
+
     .resume-btn:hover {
         background-color: black;
         transition: 1s;
@@ -2008,6 +2028,11 @@ html {
         background-color: rgba(99, 99, 99, 0.4);
         color: white;
         margin-left: 15%;
+    }
+
+    .resume-btn > a{
+        text-decoration: none;
+        color: white;
     }
 
     .resume-btn:hover {
@@ -2439,6 +2464,13 @@ html {
         color: white;
         margin-left: 15%;
     }
+
+    .resume-btn > a{
+        text-decoration: none;
+        color: white;
+    }
+
+    
 
     .resume-btn:hover {
         background-color: black;
