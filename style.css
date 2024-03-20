@@ -32,7 +32,7 @@ html {
         background-image: url(/images/francesco-ungaro-2zZoKmZr3Eo-unsplash.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 111vw;
+        width: 115vw;
         background-position: 20%;
         scroll-behavior: smooth;
 
@@ -155,8 +155,9 @@ html {
     /*About styles*/
 
     #About {
-        height: 205vh;
+        height: 100%;
         border: solid;
+        min-width: 113%;
     }
 
     .about-section {
@@ -165,14 +166,14 @@ html {
         justify-content: center;
         text-align: center;
         flex-direction: column;
-        height: 170vh;
-        padding-top: 8%;
+        height: 170%;
+        
     }
 
     .about-header {
         font-size: 3rem;
         font-weight: 300;
-        margin-top: 70%;
+        margin-top: 25%;
     }
 
     .about-img {
@@ -197,6 +198,8 @@ html {
         height: 210vh;
         border: solid;
         background-color: #f0f0f0;
+        min-width: 113%;
+
     }
 
     .experience-section {
@@ -241,6 +244,9 @@ html {
         color: white;
         background-attachment: fixed;
         background-position: center;
+        min-width: 113%;
+        border: solid black;
+
     }
 
     .resume-header {
@@ -277,6 +283,8 @@ html {
         height: 250%;
         border: solid;
         padding-top: 7vh;
+        min-width: 113%;
+
     }
 
     .projects-page {}
@@ -403,6 +411,8 @@ html {
         height: 60vh;
         background-color: #f0f0f0;
         border: solid black;
+        min-width: 113%;
+
     }
 
     .contact-container {
@@ -462,6 +472,8 @@ html {
         background-color: #222222;
         color: white;
         border: solid black;
+        min-width: 113%;
+
     }
 
     .footer-container {
