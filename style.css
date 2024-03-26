@@ -321,6 +321,14 @@ html {
 
     }
 
+    .project-img:hover{
+        transform: scale(1.2);
+        transition-duration: .5s;
+        transition: ease .5s;
+        cursor:zoom-in;
+    }
+
+
     #project-container-1 {}
 
     #project-img-1 {}
@@ -375,33 +383,33 @@ html {
         justify-content: space-evenly;
         margin-bottom: 35px;}
 
-    .live-demo-btn {
-        font-size: 1.2em;
-        background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
-    }
-
-    .live-demo-btn:hover {
-        background-color: #00009c;
-        color: white;
-        transition: 0.5s;
-        cursor: pointer;
-    }
-
-    .view-code-btn {
-        font-size: 1.2em;
-        background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
-    }
-
-    .view-code-btn:hover {
-        background-color: #00009c;
-        color: white;
-        transition: 0.5s;
-        cursor: pointer;
-    }
+        .live-demo-btn {
+            font-size: 1.2em;
+            background-color: white;
+            color: black;
+            border: solid black 2px;
+        }
+    
+        .live-demo-btn:hover {
+            background-color: black;
+            color: white;
+            transition: 0.5s;
+            cursor: pointer;
+        }
+    
+        .view-code-btn {
+            font-size: 1.2em;
+            background-color: white;
+            color: black;
+            border: solid black 2px;
+        }
+    
+        .view-code-btn:hover {
+            background-color: black;
+            color: white;
+            transition: 0.5s;
+            cursor: pointer;
+        }
 
     /*project section ends*/
 
@@ -805,6 +813,14 @@ html {
 
     }
 
+    .project-img:hover{
+        transform: scale(1.2);
+        transition-duration: .5s;
+        transition: ease .5s;
+        cursor:zoom-in;
+    }
+
+
     #project-container-1 {}
 
     #project-img-1 {}
@@ -863,12 +879,12 @@ html {
     .live-demo-btn {
         font-size: 1.2em;
         background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
+        color: black;
+        border: solid black 2px;
     }
 
     .live-demo-btn:hover {
-        background-color: #00009c;
+        background-color: black;
         color: white;
         transition: 0.5s;
         cursor: pointer;
@@ -877,12 +893,12 @@ html {
     .view-code-btn {
         font-size: 1.2em;
         background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
+        color: black;
+        border: solid black 2px;
     }
 
     .view-code-btn:hover {
-        background-color: #00009c;
+        background-color: black;
         color: white;
         transition: 0.5s;
         cursor: pointer;
@@ -1287,6 +1303,14 @@ html {
         margin-bottom: 8%;
     }
 
+    .project-img:hover{
+        transform: scale(1.2);
+        transition-duration: .5s;
+        transition: ease .5s;
+        cursor:zoom-in;
+    }
+
+
     #project-container-1 {}
 
     #project-img-1 {}
@@ -1346,12 +1370,12 @@ html {
     .live-demo-btn {
         font-size: 1.2em;
         background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
+        color: black;
+        border: solid black 2px;
     }
 
     .live-demo-btn:hover {
-        background-color: #00009c;
+        background-color: black;
         color: white;
         transition: 0.5s;
         cursor: pointer;
@@ -1360,17 +1384,16 @@ html {
     .view-code-btn {
         font-size: 1.2em;
         background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
+        color: black;
+        border: solid black 2px;
     }
 
     .view-code-btn:hover {
-        background-color: #00009c;
+        background-color: black;
         color: white;
         transition: 0.5s;
         cursor: pointer;
     }
-
     /*project section ends*/
     /*Contact section begins*/
 
@@ -1770,6 +1793,14 @@ html {
         margin-bottom: 6%;
     }
 
+    .project-img:hover{
+        transform: scale(1.2);
+        transition-duration: .5s;
+        transition: ease .5s;
+        cursor:zoom-in;
+    }
+
+
     #project-container-1 {}
 
     #project-img-1 {}
@@ -1828,12 +1859,12 @@ html {
     .live-demo-btn {
         font-size: 1.2em;
         background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
+        color: black;
+        border: solid black 2px;
     }
 
     .live-demo-btn:hover {
-        background-color: #00009c;
+        background-color: black;
         color: white;
         transition: 0.5s;
         cursor: pointer;
@@ -1842,12 +1873,12 @@ html {
     .view-code-btn {
         font-size: 1.2em;
         background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
+        color: black;
+        border: solid black 2px;
     }
 
     .view-code-btn:hover {
-        background-color: #00009c;
+        background-color: black;
         color: white;
         transition: 0.5s;
         cursor: pointer;
@@ -2227,6 +2258,14 @@ html {
         border-radius: 5px;
     }
 
+    .project-img:hover{
+        transform: scale(1.2);
+        transition-duration: .5s;
+        transition: ease .5s;
+        cursor:zoom-in;
+    }
+
+
     .project-1-text {
         font-size: 1em;
         margin-top: 0%;
@@ -2294,12 +2333,12 @@ html {
     .live-demo-btn {
         font-size: 1.2em;
         background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
+        color: black;
+        border: solid black 2px;
     }
 
     .live-demo-btn:hover {
-        background-color: #00009c;
+        background-color: black;
         color: white;
         transition: 0.5s;
         cursor: pointer;
@@ -2308,12 +2347,12 @@ html {
     .view-code-btn {
         font-size: 1.2em;
         background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
+        color: black;
+        border: solid black 2px;
     }
 
     .view-code-btn:hover {
-        background-color: #00009c;
+        background-color: black;
         color: white;
         transition: 0.5s;
         cursor: pointer;
@@ -2551,7 +2590,10 @@ html {
     #About {
         height: 110vh;
         border: solid;
+        
     }
+
+    
 
     .about-section {
         display: flex;
@@ -2705,6 +2747,13 @@ html {
         border-radius: 5px;
     }
 
+    .project-img:hover{
+        transform: scale(1.2);
+        transition-duration: .5s;
+        transition: ease .5s;
+        cursor:zoom-in;
+    }
+
     .project-1-text {
         font-size: 1em;
         margin-top: 0%;
@@ -2774,12 +2823,12 @@ html {
     .live-demo-btn {
         font-size: 1.2em;
         background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
+        color: black;
+        border: solid black 2px;
     }
 
     .live-demo-btn:hover {
-        background-color: #00009c;
+        background-color: black;
         color: white;
         transition: 0.5s;
         cursor: pointer;
@@ -2788,12 +2837,12 @@ html {
     .view-code-btn {
         font-size: 1.2em;
         background-color: white;
-        color: #00009c;
-        border: solid #00009c 2px;
+        color: black;
+        border: solid black 2px;
     }
 
     .view-code-btn:hover {
-        background-color: #00009c;
+        background-color: black;
         color: white;
         transition: 0.5s;
         cursor: pointer;
