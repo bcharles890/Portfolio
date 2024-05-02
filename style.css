@@ -525,6 +525,8 @@ html {
 
     /*Background Image Styles*/
 
+    
+
     #Home {
         height: 85vh;
         background-image: url(./images/francesco-ungaro-2zZoKmZr3Eo-unsplash.jpg);
@@ -618,6 +620,7 @@ html {
         color: white;
         height: 75vh;
         line-height: 5%;
+        width: 100%;
     }
 
     .hero-header {
@@ -667,6 +670,7 @@ html {
         flex-direction: column;
         height: 170vh;
         padding-top: 8%;
+        width: 100%;
     }
 
     .about-header {
